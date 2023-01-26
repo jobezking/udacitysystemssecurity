@@ -1,0 +1,9 @@
+The following creates the group and account for the apache service and adds the user to the created group:
+
+sudo groupadd apache-group
+sudo useradd -m apache-user
+sudo usermod -a -G apache-group apache-user
+
+In order to configure the apache service for the desired user and group, in /etc/apache2/apache2.conf set:
+User apache-user
+Group apache-group

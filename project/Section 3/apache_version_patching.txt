@@ -1,0 +1,6 @@
+The current Apache httpd server version: Apache/2.4.7 (Ubuntu)
+
+The configuration change to prevent this information from being exposed on the website:
+/etc/apache2/conf-enabled/security.conf
+ServerSignature Off
+ServerTokens Prod
