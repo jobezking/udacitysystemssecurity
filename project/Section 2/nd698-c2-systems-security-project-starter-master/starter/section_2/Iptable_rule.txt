@@ -1,3 +1,0 @@
-# Provide your IPtables rule to block SSH access to the attacking IP address.
-
-
